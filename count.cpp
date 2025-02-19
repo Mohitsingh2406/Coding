@@ -10,6 +10,7 @@ int countDigits(int n){
         return cnt;
 }
 
+
 int main() {
     int n= 329823;
     cout<<"N: "<<n<<endl;
