@@ -17,7 +17,6 @@ int main(){
     cout<<"Enter the Key to find:- "<<endl;
     int key;
     cin>>key;
-
     if(find(arr,size,key)){
         cout<<"Found "<<endl;
     }
