@@ -13,7 +13,6 @@ bool find(int arr[],int size,int key){
 int main(){
     int arr[5]={1,3,5,7,9};
     int size=5;
-
     cout<<"Enter the Key to find:- "<<endl;
     int key;
     cin>>key;
