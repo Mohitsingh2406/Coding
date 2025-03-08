@@ -9,7 +9,7 @@ int main(){
     int end = arr.size()-1;
     int i =0;
 
-    while(start<=end){
+    while(i!=end){
         if(arr[start] == 0){
             swap(arr[start],arr[i]);
             i++;
