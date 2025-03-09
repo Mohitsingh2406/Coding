@@ -15,6 +15,7 @@ int main(){
                 if(element1+element2+element3 == sum){
                     cout<<"Triplet Found :- " << element1 << "," << element2 << "," << element3 <<endl;
                 }
+                
             }
         }
     }
