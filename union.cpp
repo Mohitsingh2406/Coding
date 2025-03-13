@@ -16,7 +16,6 @@ int main(){
     for(int i =0;i<sizeb;i++){
         ans.push_back(brr[i]);
     }
-
     cout<< " Printing ans array "<<endl;
 
     for(int i =0;i<ans.size();i++){
