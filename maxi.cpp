@@ -7,10 +7,15 @@ int main(){
     int size=11;
 
     int maxi= INT_MIN;
+    int mini = INT_MAX;
     for(int i=0;i<size;i++){
         if(arr[i]>maxi){
             maxi=arr[i];
         }
+        if(arr[i]<mini){
+            mini=arr[i];
+        }
     }
     cout<<"Maximum Number is:- "<<maxi<<endl;
+    cout<<"Minimum Number is:- "<<mini<<endl;
 }
