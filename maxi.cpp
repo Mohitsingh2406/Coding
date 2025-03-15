@@ -16,6 +16,7 @@ int main(){
             mini=arr[i];
         }
     }
+    
     cout<<"Maximum Number is:- "<<maxi<<endl;
     cout<<"Minimum Number is:- "<<mini<<endl;
 }
